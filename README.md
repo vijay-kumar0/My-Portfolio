@@ -4,7 +4,7 @@ A modern and responsive personal portfolio website showcasing my skills, project
 
 ## 🔗 Live Demo
 
-👉 (https://vijay-kumar0.github.io/My-Portfolio-/)
+👉 (https://vijay-kumar0.github.io/My-Portfolio/)
 
 ---
 
@@ -46,8 +46,9 @@ portfolio/
 
 ## 📬 Contact
 
-* GitHub: (your GitHub link)
-* LinkedIn: (your LinkedIn link)
+* GitHub: (https://github.com/vijay-kumar0)
+* LinkedIn:
+(https://www.linkedin.com/in/thevijaykumar)
 * Email: (imvksdr@gmail.com)
 
 ---
