@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="Logo">VIJAY KUMAR<span></span></div>
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skill</a>
+                <a href="#projects">Projects</a>
+                <a href="#certificats">Certificats</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        
+        <div class="dropdown">
+            <div class="links">
+                <a href="#home" onclick="cancel()">Home</a>
+                <a href="#about" onclick="cancel()">About Me</a>
+                <a href="#skill" onclick="cancel()">Skill</a>
+                <a href="#projects" onclick="cancel()">Projects</a>
+                <a href="#certificats" onclick="cancel()">certificats</a>
+                <a href="#contact" onclick="cancel()">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="home">
+        <div class="main-container">
+            <div class="content">
+                <h1 data-aos="fade-left">Hello,I am<br><span>Vijay Kumar</span></h1>
+                
+                <div class="typewriter">
+                     <span class="text"></span>
+                </div>
+
+                <p>
+                    Aspiring Full Stack Developer building responsive and functional web applications.
+                    Focused on developing both frontend and backend skills through real projects.
+                </p>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/thevijaykumar" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/vijay-kumar0" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://instagram.com/vijay.kumarr_" target="_blank"> <i class="fab fa-instagram"></i></a>
+                    <a href="Mailto:imvksdr@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+
+                <a href="resume.pdf" download class="btn-download">
+                    <i class="fa-solid fa-download"></i> Download My CV
+                </a>
+            </div>
+
+            <div class="image">
+                <img src="image.jpg" alt="Photo de Profil">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-card">
+                <p>
+                  I am frontent-focused developer currently learning Full stack development....
+                </p>
+                <ul class="about-list">
+    <li><strong>Frontend Developer</strong> focused on building clean UI</li>
+    <li>Learning full-stack development</li>
+    <li>Skilled in HTML, CSS, and JavaScript</li>
+    <li>Built projects like To-Do App, Calculator, Password Checker</li>
+    <li>Focused on improving problem-solving skills</li>
+</ul>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skills">
+        <h2 class="section-title">Skill</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <i class="fa-brands fa-python"></i>
+                <h3>Python</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML5</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS3</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-java"></i>
+                <h3>Java</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Langage C</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-database"></i>
+                <h3>SQL</h3>
+            </div>
+        </div>
+    </section>
+
+<section id="projects">
+  <h2 class="section-title">Projects</h2>
+
+  <div class="project-container">
+
+    <div class="project-card">
+      <h3>Password Strength Checker</h3>
+      <p>Evaluates password strength using custom validation rules (length, symbols, entropy) to improve security awareness.</p>
+      <a href="https://github.com/vijay-kumar0/password-strength-checker"target="_blank"class="project-btn">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <h3>YouTube Downloader</h3>
+      <p>Built a Python-based tool to download and manage YouTube videos with format selection and fast processing.</p>
+      <a href="#" target="_blank"class="project-btn">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <h3>To DO App</h3>
+      <p>Task management app with add, delete, and status tracking to improve daily productivity.</p>
+      <a href="#" target="_blank"class="project-btn">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Calculator</h3>
+      <p>Interactive calculator with responsive UI supporting real-time arithmetic operations.</p>
+      <a href="#" target="_blank"class="project-btn">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Chess App</h3>
+      <p>Implemented a functional chess game with basic rules and interactive board logic.</p>
+      <a href="#" target="_blank"class="project-btn">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Weather App</h3>
+      <p>Real-time weather application using API integration with location-based data and dynamic updates.</p>
+      <a href="#" target="_blank"class="project-btn">View Project</a>
+    </div>
+
+  </div>
+</section>
+    <section id="certificats">
+        <h2 class="section-title">My Certifications</h2>
+        <div class="cert-container">
+
+            <div class="cert-card">
+                <div class="cert-icon"><i class="fa-brands fa-html5"></i></div>
+                <div class="cert-info">
+                    <h3>HTML & CSS Project</h3>
+                    <span class="cert-issuer">Plateforme : GUVI HCL</span>
+                    <p>Built responsive web pages using HTML & CSS,focusing on layout,design consistency,and user-friendly interface.</p>
+                    <a href="https://www.guvi.in/verify-certificate?id=89727V9BtD61P2Fx74" target="_blank" class="cert-btn">View Cirtificates</a>
+                </div>
+            </div>
+
+            <div class="cert-card">
+                <div class="cert-icon"><i class="fa-solid fa-brain"></i></div>
+                <div class="cert-info">
+                    <h3>Deloitte Australia - Data Analytics job Simulation</h3>
+                    <span class="cert-issuer">Plateforme : Forage</span>
+                    <p>Completed data analytics simulation, transforming raw data into insights using analysis and problem-solving techniques.</p>
+                    <a href="https://www.theforage.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_69c0bfca857f7b431da73d33_1774776331987_completion_certificate.pdf" target="_blank"class="cert-btn">View Cirtificate</a>
+                </div>
+            </div>
+
+            <div class="cert-card">
+                <div class="cert-icon"><i class="fa-solid fa-robot"></i></div>
+                <div class="cert-info">
+                    <h3>Genrative AI</h3>
+                    <span class="cert-issuer">Plateforme : Linkedin</span>
+                    <p>Learned fundamentals of Generative AI,including prompt design,AI tools usage,and real-world applications..</p>
+                    <a href="https://www.linkedin.com/learning/certificates/979b0d54a903ce1d8097a1a553b0e15854fddfafbb98e62dd1f84e6647babb6c" target="_blank"class="cert-btn">View Cirtificate</a>
+                </div>
+            </div>
+
+            <div class="cert-card">
+                <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+                <div class="cert-info">
+                    <h3>TCS ION Career Edge - Young Professional</h3>
+                    <span class="cert-issuer">Plateforme : TCS ION</span>
+                    <p>Developed communication, problem-solving, and workplace readiness skills for professional career growth.</p>
+                    <a href="#" target="_blank"class="cert-btn">View Cirtificate</a>
+                </div>
+            </div>
+
+            <div class="cert-card">
+                <div class="cert-icon"><i class="fa-brands fa-python"></i></div>
+                <div class="cert-info">
+                    <h3>Python</h3>
+                    <span class="cert-issuer">Plateforme : Infosys springboard</span>
+                    <p>Gained strong foundation in Python programming, covering logic building, syntax, and basic problem-solving.</p>
+                    <a href="#" target="_blank"class="cert-btn">View Cirtificate</a>
+                </div>
+            </div>
+
+            <div class="cert-card">
+                <div class="cert-icon"><i class="fa-solid fa-robot"></i></div>
+                <div class="cert-info">
+                    <h3>AI for All</h3>
+                    <span class="cert-issuer">Plateforme : PW(Physics Wallah)</span>
+                    <p>Completed AI for All program, gaining understanding of AI concepts, real-world applications, and responsible AI usage.</p>
+                    <a href="https://pwskills.com/learn/certificate/fec1bd1e-26f8-49e2-b1f2-4413074f349c/" target="_blank"class="cert-btn">View Cirtificate</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+        <section id="activities">
+        <h2 class="section-title">Extra Curricular Activities</h2>
+        <div class="activities-container">
+            
+            <div class="activity-card">
+                <div class="activity-img">
+                    <i class="fa-solid fa-users-gear"></i>
+                </div>
+                <div class="activity-content">
+                    <h3>Self-Driven Learning</h3>
+                    <span class="activity-org"></span>
+                    <p>
+                        Focused on building real-world projects using HTML, CSS, and JavaScript.
+                        Practicing problem-solving through hands-on development of web applications.
+                        Continuously improving UI design and frontend development skills.  
+                    </p>
+                </div>
+            </div>
+
+            <div class="activity-card">
+                <div class="activity-img">
+                    <i class="fa-solid fa-hands-holding-child"></i>
+                </div>
+                <div class="activity-content">
+                    <h3>Project Development</h3>
+                    <span class="activity-org"></span>
+                    <p>
+                        
+                        Developed multiple projects including To-Do App, Calculator, Chess Game, and Password Strength Checker.
+                        Gained experience in DOM manipulation, logic building, and responsive design.
+                        Working consistently to improve code quality and user experience.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    
+
+
+    <section id="contact">
+        <h2 class="section-title">Contact Info</h2>
+        <div class="contact-info">
+            <a href="mailto:imvksdr@gmail.com">
+                <i class="fa-solid fa-envelope"></i> imvksdr@gmail.com
+            </a>
+            <a href="tel:+91 8957160090">
+                <i class="fa-solid fa-phone"></i> +91 8957160090
+            </a>
+            <a href="https://www.linkedin.com/in/thevijaykumar" target="_blank">
+                <i class="fa-brands fa-linkedin"></i> Profil LinkedIn
+            </a>
+            <a href="https://github.com/Vijay-Kumar0" target="_blank">
+                <i class="fa-brands fa-github"></i> My GitHub
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-location-dot"></i> Siddharth Nagar,UP
+            </a>
+            <a href="https://forms.gle/1KeaifwezDHeWiZ68" target="_blank" class="form-btn">
+               Fill Contact Form
+            </a>
+        </div>
+    </section>
+
+    <script>
+        const text = document.querySelector(".text");
+        const txt = ["Full Stack Developer","Problem-Solving"];
+        
+        let i = 0;
+        let timer;
+
+        function typingEffect() {
+            let word = txt[i].split("");
+            var loopTyping = function() {
+                if (word.length > 0) {
+                    text.innerHTML += word.shift();
+                } else {
+                    setTimeout(deletingEffect, 2000);
+                    return false;
+                }
+                timer = setTimeout(loopTyping, 100);
+            };
+            loopTyping();
+        }
+
+        function deletingEffect() {
+            let word = txt[i].split("");
+            var loopDeleting = function() {
+                if (word.length > 0) {
+                    word.pop();
+                    text.innerHTML = word.join("");
+                } else {
+                    if (txt.length > (i + 1)) {
+                        i++;
+                    } else {
+                        i = 0;
+                    }
+                    typingEffect();
+                    return false;
+                }
+                timer = setTimeout(loopDeleting, 50);
+            };
+            loopDeleting();
+        }
+
+        typingEffect();
+
+        function hamburg(){
+            const navbar = document.querySelector(".dropdown");
+            navbar.style.transform = "translateY(0px)";
+        }
+        function cancel(){
+            const navbar = document.querySelector(".dropdown");
+            navbar.style.transform = "translateY(-100%)";
+        }
+    </script>
+</body>
+</html>
