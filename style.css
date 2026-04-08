@@ -727,7 +727,7 @@ link.hover{
 
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid white;
+    border: 5px solid #ffffff;
     box-shadow: 0 0 15px rgba(0,173,181,0,6),0 30px rgba( 0.0.0.0.3);
   }
 
