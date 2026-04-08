@@ -719,15 +719,15 @@ link.hover{
   }
 
   .image img {
-    width: 200px;
-    height: 200px;
+    width: 210px;
+    height: 210px;
     max-width: none;   /* IMPORTANT */
     display: block;
     margin: 0 auto;
 
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid #00adb5;
+    border: 5px solid white;
     box-shadow: 0 0 15px rgba(0,173,181,0,6),0 30px rgba( 0.0.0.0.3);
   }
 
